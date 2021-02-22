@@ -26,3 +26,28 @@ If you do not have these environments, you can install with the following code:
 ```shell
 pip3 install lxml requests bs4 telethon
 ```
+
+## Start crawling
+1. First you have to enter the directory of the .py file, and then execute the following code:
+```shell
+python3 py-craw.py
+```
+
+2. Next, you will be prompted to enter your mobile phone number bound to Telegram.
+```
+Please enter your phone (or bot token): +18032330633
+```
+
+3. You will receive a verification code message from Telegram.
+```
+Login code: 12345. Do not give this code to anyone, even if they say they are from Telegram!
+
+This code can be used to log in to your Telegram account. We never ask it for anything else.
+
+If you didn't request this code by trying to log in on another device, simply ignore this message.
+```
+
+4. Enter the verification code to complete the login.
+```
+Please enter the code you received: 12345
+```
