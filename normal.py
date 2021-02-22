@@ -1,9 +1,5 @@
 from telethon import TelegramClient, utils
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocument
-import requests
-import re
-from bs4 import BeautifulSoup
-import os
 
 api_id = [YOURAPPID]
 api_hash = '[YOURAPIHASH]'
