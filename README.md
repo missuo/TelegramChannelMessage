@@ -8,3 +8,16 @@ Crawling of Telegram channel messages
 - [x] Telegraph message
 - [ ] Support groups
 - [ ] Support personal chat
+
+## Ready to work
+### Telegram Apps
+* App api_id
+- App api_hash
+* App title
+
+### Operating environment
+* Python 3.7 or higher
+- lxml
+- requests
+- bs4
+* telethon
