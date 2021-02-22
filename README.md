@@ -32,9 +32,6 @@ pip3 install lxml requests bs4 telethon
 from telethon import TelegramClient, utils
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocument
 import requests
-import re
-from bs4 import BeautifulSoup
-import os
 
 api_id = [YOURAPPID]
 api_hash = '[YOURAPIHASH]'
@@ -126,9 +123,16 @@ with client:
 ```
 
 ## Start crawling
-1. First you have to enter the directory of the .py file, and then execute the following code:
-```shell
-python3 py-craw.py
+1. First you have to enter the directory of the .py file, and then execute the following code: 
+
+Crawl text, pictures, and files of channel messages
+```
+python3 normal.py
+```
+
+Crawl all pictures of Telegraph
+```
+python3 telegraph.py
 ```
 
 2. Next, you will be prompted to enter your mobile phone number bound to Telegram.
