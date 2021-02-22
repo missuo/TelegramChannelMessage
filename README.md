@@ -32,6 +32,7 @@ pip3 install lxml requests bs4 telethon
 
 **Please modify the key information in the code before running the code, such as appid,api_hash,apptitle,channel_url etc.**
 
+
 ## Start crawling
 1. First you have to enter the directory of the .py file, and then execute the following code: 
 
