@@ -21,3 +21,8 @@ Crawling of Telegram channel messages
 * requests
 * bs4
 * telethon
+
+If you do not have these environments, you can install with the following code:
+```shell
+pip3 install lxml requests bs4 telethon
+```
